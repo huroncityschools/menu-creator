@@ -2260,7 +2260,7 @@
       window.clearTimeout(autoSaveTimer);
       autoSaveTimer = window.setTimeout(() => {
         setStatus(persistState() ? "Autosaved." : "Autosave is unavailable in this browser.");
-      }, 700);
+      }, 1800);
     }
 
     function flushAutoSave() {
