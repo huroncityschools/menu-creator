@@ -31,6 +31,7 @@
       --soft-green: #edf8f1;
       --soft-yellow: #fff8cf;
       --soft-orange: #fff1e8;
+      --publication-rail-width: 250px;
       --shadow: 0 18px 50px rgba(16, 16, 16, .14);
       --radius: 8px;
       --display: "Lilita One", "Arial Black", sans-serif;
@@ -898,7 +899,7 @@
 
     .publication-body {
       display: grid;
-      grid-template-columns: minmax(0, 1fr) 280px;
+      grid-template-columns: minmax(0, 1fr) var(--publication-rail-width);
       gap: 18px;
       align-items: stretch;
     }
@@ -1680,7 +1681,7 @@
       }
 
       .publication-body {
-        grid-template-columns: minmax(0, 1fr) 280px;
+        grid-template-columns: minmax(0, 1fr) var(--publication-rail-width);
         gap: 18px;
       }
 
