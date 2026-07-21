@@ -23,14 +23,14 @@
       --tiger-black: #101010;
       --tiger-gray: #aeb4bc;
       --tiger-cream: #fff8ef;
-      --week-red: #d9233f;
       --week-blue: #1f64c8;
       --week-green: #247a45;
       --week-yellow: #f3c623;
-      --soft-red: #fff0f3;
+      --week-orange: #e8661a;
       --soft-blue: #eef5ff;
       --soft-green: #edf8f1;
       --soft-yellow: #fff8cf;
+      --soft-orange: #fff1e8;
       --shadow: 0 18px 50px rgba(16, 16, 16, .14);
       --radius: 8px;
       --display: "Lilita One", "Arial Black", sans-serif;
@@ -110,7 +110,7 @@
     .brand-lockup .sidebar-kicker {
       margin: 0 0 5px;
       color: var(--huron-red);
-      font-size: 9px;
+      font-size: 11px;
       font-weight: 900;
       letter-spacing: .14em;
       text-transform: uppercase;
@@ -573,7 +573,7 @@
       color: var(--ink);
       padding: 10px;
       line-height: 1.28;
-      font-size: 12.5px;
+      font-size: 14px;
       font-weight: 500;
     }
 
@@ -727,23 +727,23 @@
     }
 
     .day.week-1 {
-      background: var(--soft-red);
-      box-shadow: inset 0 4px 0 var(--week-red);
-    }
-
-    .day.week-2 {
       background: var(--soft-blue);
       box-shadow: inset 0 4px 0 var(--week-blue);
     }
 
-    .day.week-3 {
+    .day.week-2 {
       background: var(--soft-green);
       box-shadow: inset 0 4px 0 var(--week-green);
     }
 
-    .day.week-4 {
+    .day.week-3 {
       background: var(--soft-yellow);
       box-shadow: inset 0 4px 0 var(--week-yellow);
+    }
+
+    .day.week-4 {
+      background: var(--soft-orange);
+      box-shadow: inset 0 4px 0 var(--week-orange);
     }
 
     .day.weekend {
@@ -781,7 +781,7 @@
     .footer-mark span {
       color: var(--huron-red);
       font-family: var(--body);
-      font-size: 9px;
+      font-size: 10px;
       font-weight: 900;
       letter-spacing: .1em;
     }
@@ -834,7 +834,7 @@
 
     .district-kicker {
       margin-bottom: 4px;
-      font-size: 9px;
+      font-size: 10px;
     }
 
     .school-name {
@@ -876,7 +876,7 @@
 
     .issue-flag span {
       color: var(--tiger-orange);
-      font-size: 9px;
+      font-size: 10px;
       font-weight: 900;
       letter-spacing: .13em;
       text-transform: uppercase;
@@ -892,7 +892,7 @@
 
     .issue-flag small {
       color: #c6c8cb;
-      font-size: 9px;
+      font-size: 10px;
       font-weight: 700;
     }
 
@@ -915,7 +915,7 @@
       flex: 0 0 auto;
       color: var(--muted);
       font-family: var(--utility);
-      font-size: 9px;
+      font-size: 10px;
       font-weight: 700;
       letter-spacing: .08em;
       text-transform: uppercase;
@@ -935,7 +935,7 @@
     .week-label,
     .menu-cell,
     .menu-cell textarea {
-      min-height: 108px;
+      min-height: 120px;
     }
 
     .week-label {
@@ -969,7 +969,7 @@
     .week-label small {
       color: inherit;
       font-family: var(--body);
-      font-size: 9px;
+      font-size: 10px;
       font-weight: 900;
       opacity: .82;
       position: relative;
@@ -1002,19 +1002,15 @@
       outline: 0;
     }
 
-    .week-label-4 {
-      color: var(--tiger-black);
-    }
-
     .menu-cell {
       background: var(--week-soft, #fff);
       box-shadow: inset 0 5px 0 var(--week-color, var(--huron-red));
     }
 
     .menu-cell textarea {
-      padding: 13px 9px 8px;
+      padding: 12px 8px 7px;
       font-family: var(--utility);
-      font-size: 12.5px;
+      font-size: 14px;
       font-weight: 500;
       line-height: 1.16;
       text-align: center;
@@ -1049,7 +1045,7 @@
 
     .rail-brand span {
       color: var(--muted);
-      font-size: 9px;
+      font-size: 11px;
       font-weight: 700;
       line-height: 1.25;
     }
@@ -1069,7 +1065,7 @@
 
     .publication-rail .price-row input {
       font-family: var(--utility);
-      font-size: 10px;
+      font-size: 12px;
     }
 
     .rail-title {
@@ -1094,12 +1090,12 @@
 
     .daily-box h3 {
       margin-bottom: 4px;
-      font-size: 9px;
+      font-size: 11px;
     }
 
     .daily-box textarea {
       min-height: 60px;
-      font-size: 10px;
+      font-size: 12px;
       line-height: 1.25;
     }
 
@@ -1119,7 +1115,7 @@
     .legend button {
       min-height: 25px;
       padding: 3px 7px;
-      font-size: 9px;
+      font-size: 10px;
     }
 
     .swatch {
@@ -1134,7 +1130,7 @@
 
     .month h3 {
       padding: 5px 4px;
-      font-size: 10px;
+      font-size: 11px;
       font-weight: 400;
     }
 
@@ -1146,12 +1142,12 @@
     .day {
       aspect-ratio: auto;
       min-height: 21px;
-      font-size: 8px;
+      font-size: 10px;
     }
 
     .dow {
       min-height: 18px;
-      font-size: 7px;
+      font-size: 10px;
     }
 
     .publication-footer {
@@ -1160,7 +1156,7 @@
     }
 
     .notice {
-      font-size: 8px;
+      font-size: 10px;
     }
 
     @media (max-width: 1320px) {
@@ -1641,7 +1637,7 @@
 
       .district-kicker {
         margin-bottom: 4px;
-        font-size: 9px;
+        font-size: 10px;
       }
 
       .school-name {
@@ -1672,7 +1668,7 @@
       }
 
       .issue-flag span {
-        font-size: 9px;
+        font-size: 10px;
       }
 
       .issue-flag strong {
@@ -1680,7 +1676,7 @@
       }
 
       .issue-flag small {
-        font-size: 9px;
+        font-size: 10px;
       }
 
       .publication-body {
@@ -1703,7 +1699,7 @@
       }
 
       .section-meta {
-        font-size: 9px;
+        font-size: 10px;
       }
 
       .section-title::after {
@@ -1722,7 +1718,7 @@
       .week-label,
       .menu-cell,
       .menu-cell textarea {
-        min-height: 108px;
+        min-height: 120px;
       }
 
       .week-label {
@@ -1731,7 +1727,7 @@
       }
 
       .week-label small {
-        font-size: 9px;
+        font-size: 10px;
       }
 
       .week-label::after {
@@ -1746,8 +1742,8 @@
       }
 
       .menu-cell textarea {
-        padding: 13px 9px 8px;
-        font-size: 12.5px;
+        padding: 12px 8px 7px;
+        font-size: 14px;
         line-height: 1.16;
       }
 
@@ -1769,7 +1765,7 @@
       }
 
       .rail-brand span {
-        font-size: 9px;
+        font-size: 11px;
       }
 
       .publication-rail .pricing {
@@ -1792,7 +1788,7 @@
       .publication-rail .price-row input {
         width: 100%;
         min-width: 0;
-        font-size: 10px;
+        font-size: 12px;
       }
 
       .publication-rail .price-value {
@@ -1817,12 +1813,12 @@
 
       .daily-box h3 {
         margin-bottom: 4px;
-        font-size: 9px;
+        font-size: 11px;
       }
 
       .daily-box textarea {
         min-height: 60px;
-        font-size: 10px;
+        font-size: 12px;
         line-height: 1.25;
       }
 
@@ -1837,11 +1833,11 @@
 
       .legend::before {
         margin-right: 4px;
-        font-size: 9px;
+        font-size: 10px;
       }
 
       .legend button {
-        font-size: 9px;
+        font-size: 10px;
       }
 
       .swatch {
@@ -1856,18 +1852,18 @@
 
       .month h3 {
         padding: 5px 4px;
-        font-size: 10px;
+        font-size: 11px;
       }
 
       .dow,
       .day {
         min-height: 21px;
-        font-size: 8px;
+        font-size: 10px;
       }
 
       .dow {
         min-height: 18px;
-        font-size: 7px;
+        font-size: 10px;
       }
 
       .publication-footer {
@@ -1877,7 +1873,7 @@
       }
 
       .notice {
-        font-size: 8px;
+        font-size: 10px;
       }
 
       .footer-mark {
@@ -1885,7 +1881,7 @@
       }
 
       .footer-mark span {
-        font-size: 9px;
+        font-size: 10px;
       }
     }
   </style>
@@ -2099,10 +2095,10 @@
     ];
     const shortDays = ["S", "M", "T", "W", "T", "F", "S"];
     const weekStyles = [
-      { color: "var(--week-red)", soft: "var(--soft-red)", label: "Week 1" },
-      { color: "var(--week-blue)", soft: "var(--soft-blue)", label: "Week 2" },
-      { color: "var(--week-green)", soft: "var(--soft-green)", label: "Week 3" },
-      { color: "var(--week-yellow)", soft: "var(--soft-yellow)", label: "Week 4" }
+      { color: "var(--week-blue)", soft: "var(--soft-blue)", label: "Week 1" },
+      { color: "var(--week-green)", soft: "var(--soft-green)", label: "Week 2" },
+      { color: "var(--week-yellow)", soft: "var(--soft-yellow)", label: "Week 3" },
+      { color: "var(--week-orange)", soft: "var(--soft-orange)", label: "Week 4" }
     ];
 
     const defaultState = {
